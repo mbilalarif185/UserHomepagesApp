@@ -1,0 +1,38 @@
+:root
+{
+    --bg-color: rgba(192, 187, 187, 0.2);
+    --text-color:rgb(9, 36, 155,0.8);
+ --h1-color:rgb(9, 36, 155,0.8);
+}
+
+ body{
+    background-color:var(--bg-color);
+    border:3px solid rgb(9, 36, 155,0.8);
+    border-radius:33px 44px ;
+    margin:2%;
+    padding:1%;
+    font-family: Arial , Haettenschweiler , sans-serif;
+    
+} 
+a:link
+{
+    
+    text-decoration: none;
+    padding: 0 10px 0 10px; 
+    font-size: 17px;
+   
+}
+a:hover
+{
+    background-color:rgb(9, 36, 155,0.8);
+    color:white;
+    
+    
+}
+h1{
+    text-align: center;
+   
+    color:var(--h1-color);
+    font-variant: small-caps;
+    text-indent:10px;
+}

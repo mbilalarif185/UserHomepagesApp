@@ -1,0 +1,22 @@
+:root
+{
+    --bg-color: rgba(192, 187, 187, 0.2);
+    --text-color:rgb(9, 36, 155,0.8);
+}
+
+
+a:link
+{
+    
+    text-decoration: none;
+    padding: 0 10px 0 10px; 
+    font-size: 17px;
+   
+}
+a:hover
+{
+    background-color:rgb(9, 36, 155,0.8);
+    color:white;
+    
+    
+}
